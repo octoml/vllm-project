@@ -1,6 +1,6 @@
 ninja  # For faster builds.
 psutil
-ray >= 2.5.1
+ray @ https://s3-us-west-2.amazonaws.com/ray-wheels/latest/ray-3.0.0.dev0-cp311-cp311-manylinux2014_x86_64.whl  # Ray versions before 2.9 conflict with pydantic >= 2.0
 pandas  # Required for Ray data.
 pyarrow  # Required for Ray data.
 sentencepiece  # Required for LLaMA tokenizer.

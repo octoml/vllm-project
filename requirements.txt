@@ -12,5 +12,3 @@ fastapi
 uvicorn[standard]
 pydantic >= 2.5.2 # required by ollm
 aioprometheus[starlette]
-megablocks
-stanford-stk
